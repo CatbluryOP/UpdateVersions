@@ -1,0 +1,14 @@
+{
+    "version": "3.3.6",
+    "descriptions": [
+        "Added separate Shift + Mouse 3/4/5 and Shift + Numpad bindings. Assign different emotes to the same button with and without Shift.",
+        "Added Config.Crouch.ObjectClearance to improve crouching beneath supported overhead objects with enough space underneath.",
+        "Fixed interaction prompts such as G — Smoke appearing on your player when an emote is played on another ped. Playing or cancelling NPC emotes no longer interferes with your player's emote, props, particles, or music.",
+        "Fixed numeric chair hashes not showing sitting options. Chair configuration now supports model names and signed or unsigned numeric hashes while preserving configured offsets.",
+        "Fixed middle and side mouse buttons leaving the keybind dialog stuck on Waiting.",
+        "Fixed numpad keys being saved as navigation keys, such as Num 0 becoming Shift + Insert.",
+        "Fixed numpad bindings failing to trigger. Added complete handling for numpad digits, decimal, Enter, and arithmetic keys.",
+        "Fixed stale keybind selections after cancelling or reopening the dialog. Improved duplicate-input handling and prevented emotes from triggering while assigning binds.",
+        "Improved crouch/crawl transitions and movement cleanup when changing ped, entering incompatible states, or restarting the resource."
+    ]
+}
